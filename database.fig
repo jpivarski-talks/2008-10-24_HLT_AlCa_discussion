@@ -1,0 +1,32 @@
+#FIG 3.2  Produced by xfig version 3.2.5
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+6 6705 5625 13140 7965
+2 2 0 1 0 7 50 -1 -1 0.000 0 0 -1 0 0 5
+	 6705 6030 13140 6030 13140 7965 6705 7965 6705 6030
+4 0 0 50 -1 14 12 0.0000 4 195 6075 6840 6480 AlCaTriggerSelection   IOV     "HLT_L1MuOpen"\001
+4 0 0 50 -1 14 12 0.0000 4 180 5535 6840 6720                                "HLT_L1Mu"\001
+4 0 0 50 -1 14 12 0.0000 4 180 5400 6840 6960                                "HLT_Mu3"\001
+4 0 0 50 -1 14 12 0.0000 4 180 5400 6840 7200                                "HLT_Mu5"\001
+4 0 0 50 -1 14 12 0.0000 4 180 5400 6840 7440                                "HLT_Mu9"\001
+4 0 0 50 -1 14 12 0.0000 4 30 4590 6840 7680                                ...\001
+4 0 0 50 -1 14 12 0.0000 4 180 4050 7830 5805 Offline database (not ConfDB!)\001
+-6
+2 1 0 2 0 7 50 -1 -1 0.000 0 0 -1 1 0 3
+	2 1 2.00 120.00 150.00
+	 3510 5580 3510 7020 6390 7020
+4 0 0 50 -1 14 12 0.0000 4 195 5940 1125 2835 import HLTrigger.HLTfilters.hltHighLevel_cfi\001
+4 0 0 50 -1 14 12 0.0000 4 195 12015 1125 3090 ALCARECOMuAlCalIsolatedMuHLT = HLTrigger.HLTfilters.hltHighLevel_cfi.hltHighLevel.clone()\001
+4 0 0 50 -1 14 12 0.0000 4 195 12150 1125 3345 ALCARECOMuAlCalIsolatedMuHLT.HLTPaths = ["HLT_L1MuOpen", "HLT_L1Mu", "HLT_Mu3", "HLT_Mu5",\001
+4 0 0 50 -1 14 12 0.0000 4 180 11610 1125 3585          "HLT_Mu9", "HLT_Mu11", "HLT_Mu13", "HLT_Mu15", "HLT_Mu15_L1Mu7", "HLT_L2Mu9",\001
+4 0 0 50 -1 14 12 0.0000 4 180 7155 1125 3825          "HLT_IsoMu11", "HLT_IsoMu13", "HLT_IsoMu15"]\001
+4 0 0 50 -1 14 12 0.0000 4 180 10935 1080 4635 ALCARECOMuAlCalIsolatedMuHLT = cms.EDFilter("HLTFromDatabase", label="somelabel")\001
+4 0 0 50 -1 14 12 0.0000 4 150 3375 1080 5115           connect = "..."\001
+4 0 0 50 -1 14 12 0.0000 4 135 2835 1080 5355           toGet = ...\001
+4 0 0 50 -1 14 12 0.0000 4 180 5670 1080 4875 somelabel = cms.ESSource("PoolDBESSource",\001
